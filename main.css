@@ -1,11 +1,11 @@
-@import url(/header.css);
-@import url(/news.css);
-@import url(/podcasts.css);
-@import url(/highlights.css);
-@import url(/gallery.css);
-@import url(/footer.css);
-@import url(/queries.css);
-@import url(/menus.css);
+@import url(header.css);
+@import url(news.css);
+@import url(podcasts.css);
+@import url(highlights.css);
+@import url(gallery.css);
+@import url(footer.css);
+@import url(queries.css);
+@import url(menus.css);
 
 .btn {
     border: 3px solid  whitesmoke;
