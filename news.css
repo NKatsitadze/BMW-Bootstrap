@@ -1,0 +1,31 @@
+.news {
+    border-top: 2px solid whitesmoke;
+ }
+
+ .news-col {
+     max-height: 90vh;
+     overflow: hidden;
+ }
+ 
+ .news-col-first {
+  border-right: 1px solid whitesmoke;
+ }
+
+ .news-col-second {
+     border-left: 1px solid whitesmoke;
+ }
+ 
+ .news-img {
+     max-width: 100%;
+     transition: transform 9s, filter 1.3s;
+ }
+
+ .news-img:hover {
+     cursor: pointer;
+     transform: scale(1.4);
+     filter: brightness(0.7);
+ }
+ 
+ .news-section.header-main-name {
+     left: 10%;
+ }

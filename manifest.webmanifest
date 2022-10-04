@@ -1,0 +1,7 @@
+{
+    "icons":[
+        {"src":"/img/apple-touch-icon.webp", "type":"image/webp", "sizes":"192x192" },
+        {"src":"/img/apple-touch-icon.webp", "type":"image/webp", "sizes":"512x512" }
+    ]
+}
+

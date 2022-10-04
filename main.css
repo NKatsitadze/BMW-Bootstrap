@@ -1,0 +1,31 @@
+@import url(/header.css);
+@import url(/news.css);
+@import url(/podcasts.css);
+@import url(/highlights.css);
+@import url(/gallery.css);
+@import url(/footer.css);
+@import url(/queries.css);
+@import url(/menus.css);
+
+.btn {
+    border: 3px solid  whitesmoke;
+    background-color: transparent;
+    border-radius: 0%;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    background-color: whitesmoke;
+    color: #262626;
+    border: 3px solid whitesmoke;
+}
+
+::selection {
+    background-color: rgba(89, 67, 168, 0.7);
+}
+
+
+
+
+/* manifest.webmanifest document was not made correctly, as I could not get nice looking logo for 512x512 
+so I left it out */

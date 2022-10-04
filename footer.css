@@ -1,0 +1,103 @@
+.footer {
+    background-color: #262626;
+    padding-bottom: 1.0rem;
+}
+
+.footer-first {
+    margin: 0 auto;
+    padding: 2.5rem 2rem ;
+}
+
+.footer-second {
+    margin: 0 auto;
+    padding: 2rem 2rem;
+}
+
+.first.row {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.web-link:link,
+.web-link:active,
+.web-link:visited {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.2rem 1.5rem;
+    color: #8e8e8e;
+}
+
+.web-link:link,
+.web-link:active,
+.web-link:visited:hover {
+    color: #fff;
+}
+
+.main-link-lang {
+    color: #fff !important;
+}
+
+.main-link {
+ color: #fff !important;
+ pointer-events: none;
+ position: relative;
+ 
+}
+
+.main-link::after {
+    content: "";
+    position: absolute;
+    bottom: -0.3rem;
+    left: 1.5rem;
+    width: 80%;
+    height: 1px;
+    background-color: #8e8e8e;
+}
+
+.main-flex-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+
+.inside-flex-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-final-row {
+    text-align: center;
+}
+
+.project-copyright {
+    color: #fff;
+}
+
+.owner {
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: inline-block;
+    animation: jigle 2s infinite;
+    transition: all 0.3s;
+}
+
+.owner:hover {
+    transform: scale(1.1);
+}
+
+.emoji {
+    animation: rotation 4s infinite;
+    fill: #fff;
+}
+
+@keyframes jigle {   
+    33% {
+    color: lightblue;
+        }
+   
+    66% {font-size: 1.2rem;
+        color: #fff;           
+        }
+}
+

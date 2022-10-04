@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" type="image/webp" href="/img/favicon.webp"> 
+    <link rel="stylesheet" href="/main.css" />
+    <link rel="apple-touch-icon" href="/img/apple-touch-icon.webp">
+
+  </head>
+  <body style="margin: 0; padding: 0;">
+
+    <nav class="sidebar__mainbox__navigation">
+      <input class="checkbox" id="checkbox" type="checkbox" />
+      <label class="main-label" for="checkbox"
+        ><span class="span-label">&nbsp;</span></label
+      >
+      <div class="background"></div>
+      <label class="close-label" for="checkbox"></label>
+      <div class="layer">
+        <ul class="hamburger-menu">
+          <div class="menu-search-box"><input class="menu-search" placeholder="Search" type="text">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search search-icon" viewBox="0 0 16 16">
+              <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+            </svg>
+          
+          </div>
+          <li class="list-item">
+            <a class="item-link" href="#">Home</a>
+          </li>
+          <li class="list-item">
+            <a class="item-link" href="#magazine">Magazine</a>
+          </li>
+
+          <li class="list-item">
+            <a class="item-link" href="#podcasts">Podcasts</a>
+          </li>
+          <li class="list-item">
+            <a class="item-link" href="#podcasts">Events</a>
+          </li>
+          <li class="list-item">
+            <a class="item-link" href="#">Esports</a>
+          </li>
+          <li class="list-item">
+            <a class="item-link" href="#">Models</a>
+          </li>
+          <li class="list-item">
+            <a class="item-link" href="#highlights">Find in your country</a>
+          </li>
+          <li class="list-item">
+            <a class="item-link" href="#footer">Warranty</a>
+          </li>
+          <li class="list-item">
+            <a class="item-link" href="#footer">Contact us</a>
+          </li>
+        </ul>
+        
+      </div>
+    </nav>
+
+
+    <section class="header-section container-fluid p-0 m-0">
+
+      <div class="header-img-box position-relative">
+
+        <div class="big-menu-box  ">
+          <div class="big-link-box">
+            <a class="big-menu-link" href="#">Home</a>
+            <a class="big-menu-link" href="#magazine">Magazine</a>
+            <a class="big-menu-link" href="#podcasts">Podcasts</a>
+            <a class="big-menu-link" href="#podcasts">Events</a>
+            <a class="big-menu-link" href="#">Esports</a>
+            <a class="big-menu-link" href="#highlights">Models</a>
+            <div class="search-icon-box" style="border-bottom: 1px solid whitesmoke;">
+              <svg style="padding-bottom: 5px" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search big-menu-search-icon" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+              </svg>
+            </div>
+            <div class="d-flex align-items-center gap-2" style="border-bottom: 1px solid whitesmoke;">
+              <svg xmlns="http://www.w3.org/2000/svg" style="fill: #fff; cursor:pointer; " width="20" height="20" fill="currentColor" class="bi bi-globe big-menu-icon-two" viewBox="0 0 16 16">
+                <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z"/>
+              </svg>
+              <span class="big-menu-span">BMW Local</span>
+            </div>
+          </div>
+          
+
+
+        </div>
+
+        <img
+          class="header-img gallery-img img-fluid"
+          src="/img/gallery/header-main.webp"
+          alt="Main Header Image of bmw"
+        />
+        <div class="header-main-name">
+          <p class="mb-4"><span class="h2">Dream Drive</span></p>
+
+          <p>
+            <span class="h1">On the road with the new <br />BMW 8 Series </span> </p>
+          </p>
+          <button type="button" class="btn btn-secondary px-5">Read More</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="magazine" class="news container-fluid p-0 m-0 ">
+      <div class="news-row row mx-0 ">
+        <div  class="news-col news-col-first col-12 col-md-6 p-0 position-relative ">
+          <img class="news-img first "   src="/img/main/i3.webp" alt="">
+          <div class="news-section header-main-name">
+            <p class="mb-4"><span class="h2">Goodbye, BMW i3</span></p>
+  
+            <p>
+              <span class="h1">This love never gets rusty </span> </p>
+            </p>
+            <button type="button" class="btn btn-secondary px-5">Read More</button>
+          </div>
+        </div>
+
+       <div class="news-col news-col-second col-12 col-md-6 p-0 position-relative ">
+          <img class="news-img second" src="/img/main/fat-00-teaser-square.jpg.asset.1656058710550.webp" alt="">
+          <div class="news-section header-main-name">
+            <p class="mb-4"><span class="h2"><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="25"
+              height="25"
+              fill="currentColor"
+              class="bi bi-mic mb-1"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5z"
+              />
+              <path
+                d="M10 8a2 2 0 1 1-4 0V3a2 2 0 1 1 4 0v5zM8 0a3 3 0 0 0-3 3v5a3 3 0 0 0 6 0V3a3 3 0 0 0-3-3z"
+              />
+            </svg>
+             Audio Column  </span></p>
+  
+            <p>
+              <span class="h1">The future of audio and acoustics </span> </p>
+            </p>
+            <button type="button" class="btn btn-secondary px-5">Read More</button>
+          </div>
+        </div> 
+
+       
+        
+          
+        </div>
+    </section>
+
+    <section id="podcasts" class="podcasts container-fluid p-0 m-0 position-relative">
+      <div style="overflow: hidden;"  class="podcasts-row row align-items-center mx-0">
+        <div class="podcasts-first col-12 col-xxl-3">
+          <h1>THE BMW PODCAST: <br>CHANGING LANES</h1>
+          <p>"Changing Lanes” is the official podcast of BMW. Featuring new episodes each week, in which our hosts take you on exciting journeys and talk about innovative technologies, lifestyle, design, cars and more. Find and subscribe to Changing Lanes on all major podcasting platforms.</p>
+          <button type="button" class="btn btn-secondary px-10">Listen now</button>
+        </div>
+
+
+        <div class="podcasts-second col-12 col-xxl-9 m-0 p-0">
+
+          <div class="podcasts-video-box  position-relative">
+
+            <video class="podcasts-video" autoplay muted loop>
+              <source src="/img/carousel/teaser1.mp4" type="video/mp4" />
+    
+              OOPS... Your browser is not supported!
+            </video>
+            <div class="podcasts-position-name">
+              <p class="mb-2"><span class="h5">Sustainability</span></p>
+    
+              <p>
+                <span class="h6">Always one step ahead</span> </p>
+              </p>
+             
+            </div>
+  
+          </div>
+          <div class="podcasts-video-box  position-relative">
+  
+            <video class="podcasts-video" autoplay muted loop>
+              <source src="/img/carousel/teaser4.mp4" type="video/mp4" />
+    
+              OOPS... Your browser is not supported!
+            </video>
+  
+            <div class="podcasts-position-name">
+              <p class="mb-2"><span class="h5">Making of</span></p>
+    
+              <p>
+                <span class="h6">X3 in Marvel's Studios "Black Widow"</span> </p>
+              </p>
+             
+            </div>
+  
+            
+  
+          </div>
+
+          <div class="podcasts-video-box  position-relative">
+  
+            <img class="podcasts-red" src="/img/gallery/red.webp" alt="">
+  
+            <div class="podcasts-position-name">
+              <p class="mb-2"><span class="h5">For those</span></p>
+    
+              <p>
+                <span class="h6">Who love RED</span> </p>
+              </p>
+             
+            </div>
+  
+            
+  
+          </div>
+  
+          <div class="podcasts-video-box video-box-last  p-0 m-0 position-relative">
+  
+            <video class="podcasts-video"  autoplay muted loop>
+              <source src="/img/carousel/teaser3.mp4"  type="video/mp4" />
+    
+              OOPS... Your browser is not supported!
+            </video>
+            <div class="podcasts-position-name">
+              <p class="mb-2"><span class="h5">Racing terms</span></p>
+    
+              <p>
+                <span class="h6">Tips on how to take <br> perfect corner</span> </p>
+              </p>
+             
+            </div>
+  
+          </div>
+
+        </div>
+
+ 
+        
+       
+      </div>
+    </section>
+
+    <section id="highlights" class="highlights container">
+      <div class="highlights-row ">
+        <h3>BMW in your country</h3>
+        <p class="all-models-p">All BMW MODELS</p>
+        <button class="find-btn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+          <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+        </svg>Find your BMW</button>
+      </div>
+    </section>
+
+    <section class="gallery container-fluid p-0 m-0 ">
+      <div class="gallery-item-1 gallery-box">
+        <img
+          class="img-fluid gallery-img"
+          src="/img/gallery/TEASER-HD-1920x1080px.jpg.asset.1655371262953.jpg"
+          alt=""
+        />
+        <div class="text-box">BMW Esports <br />Pimp my rivarly</div>
+      </div>
+      <div class="gallery-item-2 gallery-box">
+        <img
+          class="img-fluid gallery-img"
+          src="/img/gallery/rlh-00-teaser-hd.jpg.asset.1655278533162.webp"
+          alt=""
+        />
+        <div class="text-box">
+          Rafael Lozano-Hemmer <br />Visualizing the invisible
+        </div>
+      </div>
+      <div class="gallery-item-3 gallery-box">
+        <img
+          class="img-fluid gallery-img"
+          src="/img/gallery/pride-00-teaser-hd.jpg.asset.1653988688327.jpg"
+          alt=""
+        />
+        <div class="text-box">Ride with pride <br />Celebrating all colors</div>
+      </div>
+      <div class="gallery-item-4 gallery-box">
+        <img
+          class="img-fluid gallery-img"
+          src="/img/gallery/220531_BMW_iX1_lower_images_Desktop_1920x1080.jpg.asset.1654077208260.jpg"
+          alt=""
+          style="filter: brightness(0.7);"
+        />
+        <div class="text-box">Enter a world full of dreams</div>
+      </div>
+
+      <div class="gallery-item-5 gallery-box">
+        <img
+          class="img-fluid gallery-img"
+          src="/img/gallery/ff-00-teaser-hd.jpg.asset.1652343951100.webp"
+          alt=""
+        />
+        <div style="color: black" class="text-box">
+          Looks meet feel <br />Luxurious comfort zone
+        </div>
+      </div>
+
+      <div style="overflow: hidden" class="gallery-item-6 gallery-box d-flex align-items-stretch">
+        <video class="gallery-video" autoplay muted loop>
+          <source src="/img/gallery/fwd-00-teaser-hd.mp4" type="video/mp4" />
+
+          OOPS... Your browser is not supported!
+        </video>
+        <div style="letter-spacing: 2px" class="text-box">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            fill="currentColor"
+            class="bi bi-mic"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5z"
+            />
+            <path
+              d="M10 8a2 2 0 1 1-4 0V3a2 2 0 1 1 4 0v5zM8 0a3 3 0 0 0-3 3v5a3 3 0 0 0 6 0V3a3 3 0 0 0-3-3z"
+            />
+          </svg>
+          <br />Audio Column <br />
+          FORWARDISM
+        </div>
+      </div>
+
+      <div class="gallery-item-7 gallery-box">
+        <img
+          class="img-fluid gallery-img"
+          src="/img/gallery/cs-00-teaser-hd.jpg.asset.1652773810797.webp"
+          alt=""
+        />
+        <div class="text-box">
+          Electric fleet <br />Cannes, Cote d'Azur and BMW
+        </div>
+      </div>
+
+      <div class="gallery-item-8 gallery-box d-flex align-items-stretch ">
+        <video class="gallery-video"  autoplay muted loop>
+          <source
+            src="/img/gallery/com_220303_withbmw_yamanashi_hd.mp4.asset.1646863073045.mp4"
+            type="video/mp4"
+          />
+
+          OOPS... Your browser is not supported!
+        </video>
+        <div class="text-box text-box-8">
+          Sustainable journey <br />Discover Japan with BMW iX
+        </div>
+      </div>
+
+      <div class="gallery-item-9 gallery-box">
+        <img
+          class="img-fluid gallery-img"
+          src="/img/gallery/ang-00-teaser-hd.jpg.asset.1651758651100.jpg"
+          alt=""
+        />
+        <div class="text-box">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            fill="currentColor"
+            class="bi bi-mic"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5z"
+            />
+            <path
+              d="M10 8a2 2 0 1 1-4 0V3a2 2 0 1 1 4 0v5zM8 0a3 3 0 0 0-3 3v5a3 3 0 0 0 6 0V3a3 3 0 0 0-3-3z"
+            />
+          </svg>
+          <br />
+          Audio Column
+          <br />
+          The future of circularity
+        </div>
+      </div>
+
+      <div class="gallery-item-10 gallery-box">
+        <img
+          class="img-fluid gallery-img"
+          src="/img/gallery/nr-00-teaser-hd.jpg.asset.1646863941304.webp"
+          alt=""
+        />
+        <div class="text-box">BMW Nightride <br />The sound of the night</div>
+      </div>
+
+      <div class="gallery-item-11 gallery-box d-flex align-items-stretch">
+        <video class="gallery-video" autoplay muted loop>
+          <source src="/img/gallery/iw-00-teaser-hd.mp4" type="video/mp4" />
+
+          OOPS... Your browser is not supported!
+        </video>
+        <div class="text-box">OBSESSED X BMW <br />Ishad Wair</div>
+      </div>
+
+      <div class="gallery-item-12 gallery-box">
+        <img
+          class="img-fluid gallery-img"
+          src="/img/gallery/imgwebp.webp"
+          alt=""
+        />
+        <div class="text-box">
+          Creative Collaborations <br />BMW X4 M Competition
+        </div>
+      </div>
+    </section>
+
+    <div style="padding: 1.5rem 0 !important;" class="show-more container-fluid p-0 m-0 ">
+      <div class="row mx-auto justify-content-center">
+        <div class="col-12 d-flex justify-content-center">
+          <button
+            type="button"
+            class="btn btn-show-more  my-2 mx-auto px-5"
+          >
+            Show More
+          </button>
+        </div>
+      </div>
+    </div>
+
+
+    <section id="footer" class="footer">
+      <div class="footer-first container-md">
+        <div class="first-row">
+          <a class="main-link-lang web-link" href="#">English</a>         
+          <a class="web-link" href="#">Deutsch</a>
+          <a class="web-link" href="#">Italiano</a>
+          <a class="web-link" href="#">Français</a>
+          <a class="web-link" href="#">Español</a>
+          <a class="web-link" href="#"> 日本語 </a>
+        </div>
+      </div>
+
+
+      <div class="footer-second container-md">
+        <div class="main-flex-box">
+          <div class="inside-flex-box">
+            <a class="main-link web-link" href="#">Quick links</a>
+            <a class="web-link" href="#" style="margin-top: 1rem;">Home</a>
+            <a class="web-link" href="#">Bmw in your country</a>
+            <a class="web-link" href="#">Careers</a>
+            <a class="web-link" href="#">EU Regulations</a>
+            <a class="web-link" href="#">Reach Regulations</a>
+            <a class="web-link" href="#">Software Update</a>
+            <a class="web-link" href="#">Autonomoous Driving</a>
+            <a class="web-link" href="#">Compability Check</a>
+            <a class="web-link" href="#">Service Products</a>
+          </div>
+          <div class="inside-flex-box">
+            <a class="main-link web-link" href="#">More BMW Websites</a>
+            <a class="web-link" href="#" style="margin-top: 1rem;">BMW M</a>
+            <a class="web-link" href="#">BMW Motorsport</a>
+            <a class="web-link" href="#">BMW Driving Experience</a>
+            <a class="web-link" href="#">BMW Golfsport</a>
+            <a class="web-link" href="#">BMW Sales</a>
+            <a class="web-link" href="#">BMW Welt</a>
+            <a class="web-link" href="#">BMW Group Classic</a>
+            <a class="web-link" href="#">BMW Group</a>
+            <a class="web-link" href="#">BMW Group Culture</a>
+            
+          </div>
+          <div class="inside-flex-box">
+            <a class="main-link web-link" href="#">BMW.com</a>
+            <a class="web-link" href="#" style="margin-top: 1rem;">About BMW.com</a>
+            <a class="web-link" href="#">Contact</a>
+            <a class="web-link" href="#">Cookies</a>
+            <a class="web-link" href="#">Imprint</a>
+            <a class="web-link" href="#">Legal Notice</a>
+            <a class="web-link" href="#">Data Protection</a>
+          </div>
+          <div class="inside-flex-box">
+            <a class="main-link web-link" href="#">Visit us on</a>
+            <a class="web-link" href="#" style="margin-top: 1rem;">Facebook</a>
+            <a class="web-link" href="#">Twitter</a>
+            <a class="web-link" href="#">Instagram</a>
+            <a class="web-link" href="#">Youtube</a>
+          </div>
+        </div>
+
+
+
+      </div>
+
+      <div class="footer-third container-md">
+        <div class="footer-final-row">
+          <p class="project-copyright">BMW official copy made for project by <p class="owner">Nika Katsitadze </p></p>
+          
+        </div>
+      </div>
+
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
