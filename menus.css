@@ -116,6 +116,7 @@
    
     .checkbox:checked ~ .background {
         width: 100vw;
+        -webkit-backdrop-filter: blur(2px);
         backdrop-filter: blur(2px); 
     }
     .checkbox:checked ~ .layer {
