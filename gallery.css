@@ -81,7 +81,7 @@
 
 .gallery-img {
     transition: transform 9s, filter 1.3s;
-    height: 100% !important;
+    height: auto;
 }
 
 
@@ -92,8 +92,7 @@
 }
 
  .gallery-video {
-    max-width: 100%;
-    height: 100%;
+    width: 100%;
     transform: scale(1.05);
     transition: transform 9s, filter 1.3s;
 } 
