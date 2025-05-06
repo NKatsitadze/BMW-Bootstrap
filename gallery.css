@@ -3,6 +3,8 @@
     grid-template-columns: repeat(12, 1fr);
     grid-gap: 2px;
     background-color: whitesmoke;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
 }
 
 .gallery-item-1 {

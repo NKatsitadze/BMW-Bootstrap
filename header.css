@@ -3,6 +3,8 @@
     max-height: 75vh;
     overflow: hidden;
     position: relative;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
 }
 
 .header-img {

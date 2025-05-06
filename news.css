@@ -1,5 +1,7 @@
 .news {
     border-top: 2px solid whitesmoke;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
  }
 
  .news-col {
